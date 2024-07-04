@@ -15,3 +15,20 @@ resultado = filtrarPares(arr)
 console.log(resultado)
 
 
+
+
+const express = require('express')
+
+const app = express()
+
+app.get('/teste-api', function(req, res){
+res.send('NOSSA API TÁ FUNFANDO')
+})
+
+app.listen(8000)
+
+
+
+
+
+
